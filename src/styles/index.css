@@ -1,0 +1,91 @@
+.sm-slider {
+     position: relative;
+     -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+ .sm-slider > .sm-slider-container {
+     display: none;
+     height: 100%;
+     overflow: hidden;
+     border-radius: 2px;
+     position: relative;
+     padding: 0;
+}
+
+.thumbnail {
+    height: 100%;
+    float: left;
+    height: 100%;
+    cursor: cursor;
+}
+
+.thumbnail .content {
+    width: 100% !important;
+    height: 100% !important;
+    pointer-events: none;
+}
+
+.slide {
+    float: left;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.slide > img {
+    width: 100%;
+    height: auto;
+}
+
+.dots-menu {
+   position: absolute;
+   transform: translate(-50%, 0);
+}
+.dots-menu.horz {
+  top: 70%;
+  left: 50%;
+}
+.dots-menu.vert {
+  left: 90%;
+  top: 50%;
+}
+ .dots-menu > .dot {
+   display: inline-block;
+   height: 13px;
+   width: 13px;
+   margin-left: 5px;
+   border-radius: 50%;
+   cursor: pointer;
+   background-color: rgba(255,255,255,0.5);
+}
+
+ .nav {
+     position: absolute;
+     font-size: 2.8em;
+     padding: 0 1.2rem;
+     cursor: pointer;
+     top:40%;
+     color: #ffc044;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav {
+      font-size: 2.3em;
+    }
+}
+
+
+/* Navigator Left */
+ .nav.left{
+     left: 0;
+}
+/* Navigator Right */
+ .nav.right{
+     right: 0;
+}
+
+ .dot:hover {
+   background-color: #ffc044;
+ }
+ .dot.selected {
+     background-color: #ffc044;
+}

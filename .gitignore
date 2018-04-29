@@ -1,0 +1,4 @@
+node_modules
+.vuepress
+.DS_Store
+/factory

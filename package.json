@@ -1,0 +1,28 @@
+{
+  "name": "sm-sliderjs",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-preset-es2016": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1",
+    "live-server": "^1.2.0",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
+  },
+  "scripts": {
+    "start": "live-server",
+    "build": "webpack",
+    "lint": "eslint --fix src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^0.9.21",
+    "sm-sliderjs": "^1.0.1"
+  }
+}
