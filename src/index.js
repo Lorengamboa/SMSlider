@@ -154,15 +154,15 @@ export default class SMSlider {
     function drawSlides() {
       let children = _this.smslider_div.children;
 
+      let slideHeight = null;
+
       if (_this.config.direction === DIRECTION_VERTICAL) {
         _this.smslider_div.style.height =
         children.length * _this.slideObject.sliderHeight + "px";
-      } else
-        _this.smslider_div.style.width =
-        children.length * _this.slideObject.sliderWidth + "px";
+        slideHeight = _this.slideObject.sliderHeight;
+      } else _this.smslider_div.style.width = children.length * _this.slideObject.sliderWidth + "px";
 
-      let slideWidth = _this.slideObject.sliderWidth / _this.config.slidesInView;
-      let slideHeight = _this.slideObject.sliderHeight;
+      const slideWidth = _this.slideObject.sliderWidth / _this.config.slidesInView;
 
       for (let i = 0; i < children.length; i++) {
         var slide = new Slide(children[i], slideWidth, slideHeight);

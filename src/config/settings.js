@@ -11,7 +11,7 @@ const settings = {
   sliderTransitionTime: 2,
   direction: 'horizontal',
   border: 'none',
-  thumbnails: false,
+  thumbnail: false,
   thumbnailsInView: 3,
   transitionFlow: 'ease',
 };

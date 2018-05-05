@@ -1,13 +1,13 @@
-# Sunmedia slider
+# SMSlider
 
 This is a very basic html slider that comes with a bunch of basic functionalities.
 
 
-![Alt Text](/vendor/demo.gif)
+![Alt Text](/vendor/preview.gif)
 # How to use
 
 **We must import the slider plugin**
-```javascript
+```html
   <script src="sm_slider.js"></script>
 ```
 
@@ -15,19 +15,19 @@ This is a very basic html slider that comes with a bunch of basic functionalitie
 
 
 ```html
-<div id="slider1" style="width:300px">
-   <div>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-      in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<div id="slider1" style="width:300px; height:480px">
+   <div style="font-family: 'Inconsolata'; padding: 5px ">
+     <img src="https://orig00.deviantart.net/9517/f/2017/261/9/f/fortnite___icon_by_blagoicons-dbnu8a0.png" alt="">
+      <p>Fortnite is a co-op sandbox survival game developed by Epic Games and People Can Fly and published by Epic Games.</p>
    </div>
    <div>
-      <img src="https://picsum.photos/300/480/?image=2" alt="">
+      <img src="https://dotesports-cdn-prod-tqgiyve.stackpathdns.com/thumbor/h3VXIF_74X7PUONW1O_dhSgxIos=/900x0/filters:no_upscale()/https://dotesports-cdn-prod-tqgiyve.stackpathdns.com/article/ce1048af-f5ae-494e-9fb4-fbb8b3416fce.png" alt="">
    </div>
    <div>
-      <img src="https://picsum.photos/300/480/?image=3" alt="">
+      <img src="https://assets.stormshield.one/T-Icon-Weapons-SK-RPG7-L.png" alt="">
+   </div>
+   <div>
+      <img src="https://vignette.wikia.nocookie.net/fortnite/images/2/27/Icon_Weapons_SK_Hydra_L.png/revision/latest?cb=20170806003216" alt="">
    </div>
 </div>
 ```
@@ -79,3 +79,9 @@ moveSlideBackward
 
 moveSlideForward
 > Moves slider to the next position slide stack
+
+stopAutoplay
+> Stops autoplay
+
+playAutoplay
+> Plays autoplay

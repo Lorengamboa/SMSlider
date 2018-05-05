@@ -26,6 +26,7 @@
 }
 
 .slide {
+    height: 100%;
     float: left;
     pointer-events: none;
     overflow: hidden;
@@ -41,7 +42,7 @@
    transform: translate(-50%, 0);
 }
 .dots-menu.horz {
-  top: 70%;
+  top: 90%;
   left: 50%;
 }
 .dots-menu.vert {
